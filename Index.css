@@ -1,0 +1,102 @@
+/* Reset básico */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: color #30b6c5
+}
+
+header{
+    background-color: #30b6c5;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+}
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    display:inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover{
+    background: #30b6c5;
+    border-radius: 5px;
+}
+.hero{
+    background: url ('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button{
+    display:inline-block;
+    background: #30b6c5;
+    color:#fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover{
+    background: #30b6c5;
+}
+.feature{
+
+    padding: 20px 0;
+}
+
+.feature{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.feature img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+ footer{
+        background: #30b6c5;
+        color: #fff;
+        text-align: center;
+        padding:10px 0;
+}
